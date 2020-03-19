@@ -37,7 +37,7 @@ def scrapy():
 
             for i in range(len(all_verses)):
                 for text in all_verses[i].stripped_strings:
-                    if text[0] != '[':
+                    if text[0] != '[' and text[0] != '{':
                         verses_array.append(text.lower())
 
         return verses_array

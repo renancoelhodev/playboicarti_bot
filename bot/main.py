@@ -3,7 +3,6 @@ import get_lyrics
 import tweet_generator
 import time
 
-
 consumer_key = #consumer_key
 consumer_secret = #consumer_secret
 access_token = #access_token
